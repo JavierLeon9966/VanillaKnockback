@@ -2,7 +2,7 @@
 declare(strict_types = 1);
 namespace JavierLeon9966\BetterKnockback;
 use pocketmine\plugin\PluginBase;
-use pocketmine\event\{EntityDamageByEntityEvent, EntityDamageByChildEntityEvent};
+use pocketmine\event\entity\{EntityDamageByEntityEvent, EntityDamageByChildEntityEvent};
 use pocketmine\event\Listener;
 use pocketmine\Player;
 class Main extends PluginBase implements Listener{
