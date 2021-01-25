@@ -1,10 +1,10 @@
 <?php
 declare(strict_types = 1);
-namespace JavierLeon9966/BetterKnockback;
+namespace JavierLeon9966\BetterKnockback;
 use pocketmine\Player as PMPlayer;
 use pocketmine\entity\{Entity, Attribute};
 class Player extends PMPlayer{
-  public function knockBack(Entity $attacker, float $damage, float $x, float $z, float $base = 0.4): void{
+	public function knockBack(Entity $attacker, float $damage, float $x, float $z, float $base = 0.4): void{
 		$f = sqrt($x * $x + $z * $z);
 		if($f <= 0){
 			return;
