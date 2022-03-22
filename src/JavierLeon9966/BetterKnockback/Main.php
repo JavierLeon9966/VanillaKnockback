@@ -7,7 +7,6 @@ namespace JavierLeon9966\BetterKnockback;
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\entity\{EntityDamageByEntityEvent, EntityDamageByChildEntityEvent};
 use pocketmine\event\Listener;
-use pocketmine\Player;
 
 class Main extends PluginBase implements Listener{
 	public function onEnable(): void{
@@ -22,11 +21,7 @@ class Main extends PluginBase implements Listener{
 		$damager = $event->getDamager();
 		if(!$event instanceof EntityDamageByChildEntityEvent and $damager->isSprinting()){
 			$event->setKnockback(1.3*$event->getKnockback());
-			if($damager instanceof Player){
-				$damager->toggleSprint(false);
-			}else{
-				$damager->setSprinting(false);
-			}
+			$damager->setSprinting(false);
 		}
 	}
 }
