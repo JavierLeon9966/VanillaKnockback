@@ -6,11 +6,8 @@ namespace JavierLeon9966\BetterKnockback;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\entity\{EntityDamageByEntityEvent, EntityDamageByChildEntityEvent};
-use pocketmine\event\player\PlayerCreationEvent;
 use pocketmine\event\Listener;
 use pocketmine\Player;
-
-use JavierLeon9966\BetterKnockback\Player as ModPlayer;
 
 class Main extends PluginBase implements Listener{
 	public function onEnable(): void{
@@ -31,12 +28,5 @@ class Main extends PluginBase implements Listener{
 				$damager->setSprinting(false);
 			}
 		}
-	}
-
-	/**
-	 * @priority MONITOR
-	 */
-	public function onPlayerCreation(PlayerCreationEvent $event): void{
-		$event->setPlayerClass(ModPlayer::class);
 	}
 }
