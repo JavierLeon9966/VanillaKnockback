@@ -14,7 +14,7 @@ class Main extends PluginBase implements Listener{
 	}
 
 	/**
-	 * @priority MONITOR
+	 * @priority HIGHEST
 	 * @ignoreCancelled true
 	 */
 	public function onEntityDamageEventByEntity(EntityDamageByEntityEvent $event): void{
