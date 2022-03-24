@@ -4,10 +4,10 @@ declare(strict_types = 1);
 
 namespace JavierLeon9966\BetterKnockback;
 
+use pocketmine\event\entity\{EntityDamageByChildEntityEvent, EntityDamageByEntityEvent};
+use pocketmine\event\Listener;
 use pocketmine\entity\Living;
 use pocketmine\plugin\PluginBase;
-use pocketmine\event\entity\{EntityDamageByEntityEvent, EntityDamageByChildEntityEvent};
-use pocketmine\event\Listener;
 
 class Main extends PluginBase implements Listener{
 	public function onEnable(): void{
