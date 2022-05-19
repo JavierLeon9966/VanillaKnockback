@@ -1,6 +1,6 @@
-name: BetterKnockback
+name: VanillaKnockback
 version: 1.0.0
 api: [4.0.0]
 description: Implements vanilla knockback when sprint hitting
 author: JavierLeon9966
-main: JavierLeon9966\BetterKnockback\Main
+main: JavierLeon9966\VanillaKnockback\Main

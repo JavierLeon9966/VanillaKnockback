@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace JavierLeon9966\BetterKnockback;
+namespace JavierLeon9966\VanillaKnockback;
 
 use pocketmine\event\entity\{EntityDamageByChildEntityEvent, EntityDamageByEntityEvent};
 use pocketmine\event\Listener;
