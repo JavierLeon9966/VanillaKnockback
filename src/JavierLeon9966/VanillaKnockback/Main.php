@@ -15,7 +15,7 @@ class Main extends PluginBase implements Listener{
 	}
 
 	/**
-	 * @priority HIGHEST
+	 * @priority LOWEST
 	 */
 	public function onEntityDamageEventByEntity(EntityDamageByEntityEvent $event): void{
 		$damager = $event->getDamager();
