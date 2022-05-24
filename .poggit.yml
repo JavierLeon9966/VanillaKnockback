@@ -5,4 +5,5 @@ branches:
 projects:
   VanillaKnockback:
     path: ""
+    icon: icon.gif
 ...
