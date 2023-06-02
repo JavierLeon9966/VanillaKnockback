@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1aef0232314bb5056f62d8d61ade3669",
+    "content-hash": "f1676c4a1e95a47beabf53fff1dcaf44",
     "packages": [
         {
             "name": "adhocore/json-comment",
@@ -1378,12 +1378,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "5aecd7148fc59064b09afa215baf299cd72d8685"
+                "reference": "3d18ce4161df4c39c11d4fd13998ba9e98b04331"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/5aecd7148fc59064b09afa215baf299cd72d8685",
-                "reference": "5aecd7148fc59064b09afa215baf299cd72d8685",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/3d18ce4161df4c39c11d4fd13998ba9e98b04331",
+                "reference": "3d18ce4161df4c39c11d4fd13998ba9e98b04331",
                 "shasum": ""
             },
             "require": {
@@ -1433,7 +1433,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-05-31T08:46:29+00:00"
+            "time": "2023-06-01T21:25:30+00:00"
         },
         {
             "name": "phpstan/phpstan-strict-rules",
